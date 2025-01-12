@@ -10,7 +10,11 @@ public class Array_list_basic {
         for (int i=0;i<4;i++) {
             list.add(in.nextInt());
         }
-        System.out.printf("%s",list);
+        System.out.printf("%s \n",list);
         System.out.println(list.getFirst());
+        System.out.println();
+        list.remove(Integer.valueOf(3));
+        System.out.println(list);
+
     }
 }

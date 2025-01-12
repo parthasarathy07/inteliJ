@@ -8,7 +8,7 @@ public class BinarySearching {
         int target=23;
         System.out.println("the value is"+searching(arr,target));
     }
-    static int searching(int []arr,int target){
+    public static int searching(int[] arr, int target){
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
         int start=0,end=arr.length,mid;
