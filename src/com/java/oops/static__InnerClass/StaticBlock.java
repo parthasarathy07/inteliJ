@@ -2,7 +2,7 @@ package com.java.oops.static__InnerClass;
 
 public class StaticBlock {
     int c;
-    static   int a=0;
+    static  int a=0;
     static  int b;
 
     StaticBlock(){
@@ -18,6 +18,7 @@ public class StaticBlock {
 }
 class Main{
     public static void main(String[] args) {
+        System.out.println("it is in main method");
         StaticBlock ob=new StaticBlock();
         System.out.println(StaticBlock.a +" "+ StaticBlock.b);
     }
