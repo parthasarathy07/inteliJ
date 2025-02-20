@@ -14,5 +14,6 @@ public class AllCollection {
         System.out.println(stack.peek());
         TreeMap<Integer,Integer>hashMap=new TreeMap<>();
 
+
     }
 }
