@@ -1,4 +1,4 @@
-package com.java.advanced.collectionsFramework;
+package com.java.dsa.arrayList;
 
 public class CustomGenericArrayList<T>{
 

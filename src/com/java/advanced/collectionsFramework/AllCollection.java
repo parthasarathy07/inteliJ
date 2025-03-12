@@ -1,6 +1,7 @@
 package com.java.advanced.collectionsFramework;
 
 import java.util.*;
+import java.util.concurrent.BlockingDeque;
 
 public class AllCollection {
     public static void main(String[] args) {
@@ -14,6 +15,9 @@ public class AllCollection {
         System.out.println(stack.peek());
         TreeMap<Integer,Integer>hashMap=new TreeMap<>();
 
+        PriorityQueue<Integer>queue=new PriorityQueue<>();
+        ArrayDeque<Integer>arrayDeque=new ArrayDeque<>();
+        Deque deque=new ArrayDeque();
 
     }
 }

@@ -27,15 +27,16 @@ public class Main implements Brake,Engine,Light {
     }
 
     public static void main(String[] args) {
+
         Main ob= new Main();
         ob.acc();
         ob.running();
         ob.stop();
         ob.start();
         ob.brake();
-        Brake ob1=new Main();
-        ob1.brake();
-        ob1.start();
+        Brake brake=new Main();
+        brake.start();
+        brake.brake();
         System.out.println(Engine.i);
     }
 }

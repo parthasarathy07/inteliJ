@@ -2,7 +2,7 @@ package com.java.dsa.linkedlist;
 
 import java.util.Scanner;
 
-class List_of_node {
+class Linkedlist {
     Node head,temp;
      static class Node{
          int data;
@@ -11,19 +11,14 @@ class List_of_node {
              this.data=data;
              next=null;
          }
-
     }
      void insert(int data){
          Node newnode=new Node(data);
          if(head==null){
-             head=newnode;
+             head=temp=newnode;
          }
          else {
-             temp=head;
-             while(temp.next!=null){
-                 temp=temp.next;
-             }
-             temp.next=newnode;
+             temp=temp.next=newnode;
          }
 
      }
@@ -36,9 +31,11 @@ class List_of_node {
      }
 
 }
-public class Insert_at_beginning {
+
+
+public class InsertUsingUserInput {
     public static void main(String []args){
-        List_of_node list =new List_of_node();
+        Linkedlist list =new Linkedlist();
         Scanner in = new Scanner(System.in);
         while(true){
             String val=in.next();
@@ -47,7 +44,6 @@ public class Insert_at_beginning {
             int val1=Integer.parseInt(val);
             list.insert(val1);
         }
-
         list.display();
 
     }
