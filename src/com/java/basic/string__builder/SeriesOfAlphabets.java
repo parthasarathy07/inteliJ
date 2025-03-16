@@ -8,5 +8,6 @@ public class SeriesOfAlphabets {
             s.append((char)(ch+i));
         }
         System.out.println(s);
+        
     }
 }

@@ -1,7 +1,5 @@
 package com.java.basic.string__builder;
 
-import java.util.HashMap;
-import java.util.HashSet;
 
 public class String_builder {
     public static void main(String[] args) {
@@ -11,7 +9,16 @@ public class String_builder {
         s.append("i");
         s.append("n");
         s.append("g");
+        s.insert(2, (String) null);
         System.out.println(s);
         System.out.println(s.toString());
+        System.out.println(s.capacity());
+        s.trimToSize();
+        System.out.println(s.capacity());
+        s.append("er");
+        s.setLength(3);
+        System.out.println(s.capacity());
+        System.out.println(s);
+        System.out.println(s.repeat("3",4));
     }
 }
