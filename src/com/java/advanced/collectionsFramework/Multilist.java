@@ -1,4 +1,4 @@
-package com.java.basic.array;
+package com.java.advanced.collectionsFramework;
 
 import java.util.ArrayList;
 import java.util.Scanner;
