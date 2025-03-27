@@ -1,4 +1,4 @@
-package com.java.oops.instanceAndStaticBlock;
+package com.java.oops.instanceAndStaticBlock.StaticInTwoClass;
 
 public class Child {
     static {

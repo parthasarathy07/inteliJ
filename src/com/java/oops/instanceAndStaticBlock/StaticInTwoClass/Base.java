@@ -1,4 +1,4 @@
-package com.java.oops.instanceAndStaticBlock;
+package com.java.oops.instanceAndStaticBlock.StaticInTwoClass;
 
 public class Base {
     static {
@@ -6,7 +6,7 @@ public class Base {
     }
     public static void main(String[] args) {
         System.out.println("base main");
-        int i=Child.i;
+        int i= Child.i;
         int k=Child.i;
     }
 }
